@@ -13,16 +13,14 @@ import java.util.ArrayList;
  */
 public class User {
 
-    private Integer id;
     private String firstName;
     private String lastName;
     private int age;
     private String profession;
     private ArrayList<User> children;
 
-    public User(Integer id, String firstName, String lastName, int age) {
+    public User(String firstName, String lastName, int age) {
 
-        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
