@@ -2,6 +2,8 @@ package org.example;
 
 public class BookEntity {
     private String bookName;
+
+
     private String authorName;
     private int publishedYear;
     private float bookPrice;
@@ -10,14 +12,13 @@ public class BookEntity {
         this.bookName = n;
         this.authorName = a;
         this.publishedYear = y;
-        this.bookPrice = p;
     }
 
-    public String gimmeBookName() {
+    public String givBooksName() {
         return bookName;
     }
 
-    public String gimmeAuthorName() {
+    public String AuthorName() {
         return authorName;
     }
 
@@ -47,14 +48,14 @@ public class BookEntity {
 
     public void showBookDetails() {
         System.out.println("Book: " + bookName);
-        System.out.println("Author: " + authorName);
-        System.out.println("Published in: " + publishedYear);
+            System.out.println("Author: " + authorName);
+            System.out.println("Published in: " + publishedYear);
         System.out.println("Cost: $" + bookPrice);
     }
 
     public static void main(String[] args) {
         BookEntity b = new BookEntity("Java Programming", "John Doe", 2022, 29.99f);
-        b.showBookDetails();
+            b.showBookDetails();
         b.alterBookPrice(34.99f);
         b.showBookDetails();
     }
