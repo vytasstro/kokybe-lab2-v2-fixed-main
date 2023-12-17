@@ -5,13 +5,13 @@ public class BookEntity {
 
 
     private String authorName;
-    private int publishedYear;
-    private float bookPrice;
+    private int publishedDate;
+    private int bookPrice;
 
     public BookEntity(String n, String a, int y, float p) {
         this.bookName = n;
         this.authorName = a;
-        this.publishedYear = y;
+        this.publishedDate = y;
     }
 
     public String givBooksName() {
@@ -23,7 +23,7 @@ public class BookEntity {
     }
 
     public int gimmePublishedYear() {
-        return publishedYear;
+        return publishedDate;
     }
 
     public float gimmeBookPrice() {
@@ -39,17 +39,17 @@ public class BookEntity {
     }
 
     public void alterPublishedYear(int y) {
-        this.publishedYear = y;
+        this.publishedDate = y;
     }
 
-    public void alterBookPrice(float p) {
+    public void alterBookPrice(int p) {
         this.bookPrice = p;
     }
 
     public void showBookDetails() {
         System.out.println("Book: " + bookName);
             System.out.println("Author: " + authorName);
-            System.out.println("Published in: " + publishedYear);
+            System.out.println("Published in: " + publishedDate);
         System.out.println("Cost: $" + bookPrice);
     }
 
