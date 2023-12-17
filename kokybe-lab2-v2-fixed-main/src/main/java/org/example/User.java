@@ -34,7 +34,7 @@ public class User {
             if (name == "Harry") {
                 name.replace('r', 'p');
             }
-            if (name != null || name.length() > 0) {
+            if (name != null && name.length() > 0) {
                 name.concat(child.getLastName());
             }
         }
