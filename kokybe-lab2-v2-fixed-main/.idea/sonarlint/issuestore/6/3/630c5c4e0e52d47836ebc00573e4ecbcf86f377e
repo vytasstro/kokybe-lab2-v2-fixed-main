@@ -1,0 +1,19 @@
+
+Y
+java:S4973)"<Strings and Boxed types should be compared using "equals()".(¬°ÔÆ8¥±û‚Ã1
+_
+java:S2259,"BA "NullPointerException" could be thrown; "name" is nullable here.(„¼ËÙ8í±û‚Ã1
+…
+java:S4165"hRemove this useless assignment; "profession" already holds the assigned value along all execution paths.(ËíèÁ8í±û‚Ã1
+X
+java:S3984#"6Throw this exception or remove this useless statement.(î îÛÿÿÿÿÿ8‘²û‚Ã1
+M
+java:S2201*"+The return value of "replace" must be used.(³ûã…şÿÿÿÿ8˜²û‚Ã1
+L
+java:S2201-"*The return value of "concat" must be used.(´Ì›²ûÿÿÿÿ8š²û‚Ã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(ËíèÁ8¤²û‚Ã1
+H
+java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8©²û‚Ã1
+I
+java:S1068"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ8©²û‚Ã1
