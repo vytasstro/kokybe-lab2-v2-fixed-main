@@ -15,17 +15,12 @@ public class User {
 
     private String firstName;
     private String lastName;
-    private int age;
-    private String profession;
     private ArrayList<User> children;
 
-    public User(String firstName, String lastName, int age) {
+    public User(String firstName, String lastName) {
 
         this.firstName = firstName;
         this.lastName = lastName;
-        this.age = age;
-        this.profession = profession;
-
     }
 
     public String getChildName(User child) {
